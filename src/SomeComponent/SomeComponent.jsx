@@ -8,12 +8,12 @@ const SomeComponent = () => {
       someObjProp={{
         objProp: {
           internalProperty: {
-            method: function() {
+            method() {
               return calc();
             
           }
         }
-  }   }}
+      }}
     >
       bugged
     </div>

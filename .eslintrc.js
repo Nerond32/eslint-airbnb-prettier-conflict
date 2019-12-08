@@ -15,5 +15,9 @@ module.exports = {
                 paths: "src"
             }
         }
-    }
+    },
+    env: {
+        browser: true,
+        es6: true,
+    },
 };
