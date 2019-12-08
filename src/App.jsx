@@ -1,6 +1,6 @@
-import React from 'react';
-import SomeComponent from './SomeComponent/SomeComponent';
-import './App.css';
+import React from "react";
+import SomeComponent from "./SomeComponent/SomeComponent";
+import "./App.css";
 
 function App() {
   return (

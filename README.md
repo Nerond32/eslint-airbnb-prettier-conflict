@@ -1,2 +1,5 @@
-1. Launch VS Code with ESLint extension
-2. Ctrl + S SomeComponent.jsx file
+1. `npm ci`
+2. `npx eslint src --ext js,jsx --fix`
+
+
+This breaks src/SomeComponent.jsx.
