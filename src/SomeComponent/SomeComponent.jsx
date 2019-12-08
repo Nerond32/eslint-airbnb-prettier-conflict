@@ -1,14 +1,14 @@
 import React from "react";
 
 const SomeComponent = () => {
-  const veryLongFunctionNameOmgDogeSoLongWhyIsThisNotEndingWtfWhoNamesVariables = () => {};
+  const calc = () => {};
   return (
     <div
       someObjProp={{
         objProp: {
           internalProperty: {
-            someFunction() {
-              return veryLongFunctionNameOmgDogeSoLongWhyIsThisNotEndingWtfWhoNamesVariables();
+            method() {
+              return calc();
                         }
         }
       }}
