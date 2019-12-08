@@ -9,7 +9,8 @@ const SomeComponent = () => {
           internalProperty: {
             method() {
               return calc();
-                        }
+            
+          }
         }
       }}
     >
