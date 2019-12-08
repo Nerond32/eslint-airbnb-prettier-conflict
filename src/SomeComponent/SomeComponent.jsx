@@ -1,22 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const SomeComponent = () => {
-    const veryLongFunctionNameOmgDogeSoLongWhyIsThisNotEndingWtfWhoNamesVariables = x => !x;
-    return (
+  const veryLongFunctionNameOmgDogeSoLongWhyIsThisNotEndingWtfWhoNamesVariables = () => {};
+  return (
          <div
             someObjProp={{
             objProp: {
                 internalProperty: {
                     someFunction: function() {
-                        return veryLongFunctionNameOmgDogeSoLongWhyIsThisNotEndingWtfWhoNamesVariables(true);
+                        return veryLongFunctionNameOmgDogeSoLongWhyIsThisNotEndingWtfWhoNamesVariables();
                         },
-                            style: {
-                    whiteSpace: 'nowrap',
-                        }
                     }
             },
             }}
-        >HERE I AM, DE BUG</div>
+        >bugged</div>
     )
 }
 
